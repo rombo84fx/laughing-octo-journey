@@ -13,4 +13,14 @@
     <PackageReference Include="coverlet.collector" Version="1.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\RegularExpressionsUtility\RegularExpressionsUtility.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="DetectHtmlLinksTestCases\DetectHtmlLinksTestData.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
